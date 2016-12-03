@@ -7,7 +7,7 @@
    if ($conn->connect_error) {
       die("Failed to connect to MySQL Server " . $conn->connecterror);
    }
-   // print "Success to connect to MySQL Server";
+   // print "Success connecting to MySQL Server";
 
    // echo "<br>";
    // $new_un = $_POST['username']; 
